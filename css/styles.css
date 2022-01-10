@@ -922,17 +922,18 @@ header .menu .item > a.active:after
 
     position: relative;
 
-    display: flex;
+    display: table-cell;
 
-    min-height: 24px;
+    height: 24px;
     padding-left: 39px;
 
     cursor: pointer;
+    vertical-align: middle;
+}
 
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+.form input[type=checkbox] + label a
+{
+    color: currentColor;
 }
 
 
@@ -2504,11 +2505,64 @@ header .menu .item > a.active:after
     position: relative;
     z-index: 3;
 
+    overflow: hidden;
+
+    height: 760px;
     margin-right: 50px;
     margin-left: 50px;
-    padding: 131px 0 156px;
+    padding: 46px 0 46px;
 
     background: #0a0503;
+}
+
+.about_info:before
+{
+    position: absolute;
+    z-index: -3;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 361px;
+    height: 100%;
+
+    content: '';
+    pointer-events: none;
+
+    background: linear-gradient(270deg, rgba(35, 35, 35, 0) 0%, #1a1a1a 57.29%);
+}
+
+.about_info:after
+{
+    position: absolute;
+    z-index: -3;
+    top: 0;
+    right: 0;
+
+    display: block;
+
+    width: 832px;
+    height: 100%;
+
+    content: '';
+    pointer-events: none;
+
+    background: linear-gradient(270deg, #1a1a1a 67.19%, rgba(35, 35, 35, 0) 100%);
+}
+
+
+.about_info .breadcrumbs
+{
+    width: 100%;
+    margin-bottom: 71px;
+}
+
+.about_info .breadcrumbs a
+{
+    color: #fff;
+
+    opacity: .8;
 }
 
 

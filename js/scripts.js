@@ -120,9 +120,9 @@ const initMap = () => {
 			// Кастомный маркер
 			let myPlacemark = new ymaps.Placemark([55.728849, 37.644944], {}, {
 				iconLayout: 'default#image',
-				iconImageHref: 'images/ic_map_marker.png',
-				iconImageSize: [90, 90],
-				iconImageOffset: [-45, -29]
+				iconImageHref: 'images/ic_map_marker.svg',
+				iconImageSize: [111, 111],
+				iconImageOffset: [-55, -111]
 			})
 
 			myMap.geoObjects.add(myPlacemark)

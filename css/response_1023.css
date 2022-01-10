@@ -464,7 +464,14 @@
     ----------------*/
     .about_info
     {
+        height: auto;
         padding: 40px 24px 0;
+    }
+
+
+    .about_info .breadcrumbs
+    {
+        margin-bottom: 32px;
     }
 
 

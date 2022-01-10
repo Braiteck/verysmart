@@ -490,9 +490,16 @@
     ----------------*/
     .about_info
     {
+        height: 620px;
         margin-right: 24px;
         margin-left: 24px;
-        padding: 100px 0;
+        padding: 40px 0;
+    }
+
+
+    .about_info .breadcrumbs
+    {
+        margin-bottom: 40px;
     }
 
 
