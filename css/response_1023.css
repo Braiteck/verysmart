@@ -1,0 +1,644 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 30px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion
+    {
+        padding: 6px;
+    }
+
+
+    .accordion .accordion_item .head
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 20px 64px 20px 28px;
+    }
+
+
+    .accordion .accordion_item .head .icon
+    {
+        right: 24px;
+    }
+
+
+    .accordion .accordion_item .data
+    {
+        padding: 8px 64px 28px 28px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo,
+    header .logo img
+    {
+        width: 104px;
+    }
+
+
+    header .slogan
+    {
+        font-size: 13px;
+
+        margin-left: 28px;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 28px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 32px;
+    }
+
+
+    .page_title
+    {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        padding-left: 24px;
+    }
+
+    .block_head .title:before
+    {
+        top: -13px;
+
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .block_head .desc
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+
+    /*-----------------
+        First section
+    -----------------*/
+    .first_section
+    {
+        height: 450px;
+    }
+
+
+    .first_section .info
+    {
+        left: 24px !important;
+
+        width: 395px;
+        height: 300px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .first_section .info .title .span1
+    {
+        margin-left: 8px;
+    }
+
+    .first_section .info .title .span2
+    {
+        margin-left: 37px;
+    }
+
+
+    .first_section .info .square
+    {
+        width: 300px;
+        height: 300px;
+
+        border-width: 4px;
+    }
+
+    .first_section .info .square:before,
+    .first_section .info .square:after
+    {
+        width: 4px;
+        height: calc(50% - 32px);
+    }
+
+    .first_section .info .square .icon
+    {
+        top: -14px;
+        left: -10px;
+
+        width: 24px;
+        height: 24px;
+    }
+
+    .first_section .info .square .icon2
+    {
+        top: auto;
+        right: -14px;
+        bottom: -14px;
+        left: auto;
+    }
+
+    .first_section .info .square .icon:before
+    {
+        height: 4px;
+    }
+
+    .first_section .info .square .icon:after
+    {
+        width: 4px;
+    }
+
+
+    .first_section .ball1
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .first_section .ball2
+    {
+        bottom: 108px !important;
+
+        width: 48px;
+        height: 48px;
+        margin-left: -112px;
+    }
+
+
+    .first_section .smoke1,
+    .first_section .smoke2
+    {
+        top: 12px !important;
+
+        height: 500px;
+        margin-right: -680px;
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about .data .title
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .about .data .link
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding-top: 60px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 31px;
+    }
+
+
+    .contacts_info .location,
+    .contacts_info .phone
+    {
+        width: 50%;
+        margin-bottom: 24px;
+    }
+
+    .contacts_info .email
+    {
+        width: 50%;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 144px 0 60px;
+    }
+
+
+
+    /*--------------------
+        Portfolio item
+    --------------------*/
+    .portfolio_item .head .data
+    {
+        width: 100%;
+    }
+
+
+    .portfolio_item .head .title
+    {
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+
+    .portfolio_item .head .site
+    {
+        margin-top: 32px;
+    }
+
+
+    .portfolio_item .head .logo
+    {
+        width: 100%;
+        margin-top: 36px;
+        padding: 36px 0 0;
+
+        border: none;
+        border-top: 1px solid #efefef;
+    }
+
+    .portfolio_item .head .logo .icon
+    {
+        top: -6px;
+        right: 44px;
+        bottom: auto;
+        left: auto;
+    }
+
+    .portfolio_item .head .logo .img
+    {
+        height: 155px;
+    }
+
+
+
+    .portfolio_item .preview
+    {
+        margin-top: 120px;
+        padding-bottom: 32px;
+    }
+
+    .portfolio_item .preview .image
+    {
+        margin-top: -60px;
+    }
+
+
+    .portfolio_item .preview .items
+    {
+        margin-top: 32px;
+        margin-bottom: -32px;
+        margin-left: 0;
+        padding: 0 12px;
+    }
+
+    .portfolio_item .preview .items > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+
+    .portfolio_item .prototype .block_head .title span
+    {
+        margin-left: 110px;
+    }
+
+
+    .portfolio_item .prototype .data,
+    .portfolio_item .concept .data,
+    .portfolio_item .mobile .data,
+    .portfolio_item .ui_kit .data,
+    .portfolio_item .peculiarities .data
+    {
+        margin-top: 40px;
+        padding-bottom: 24px;
+    }
+
+    .portfolio_item .prototype .data .img,
+    .portfolio_item .concept .data .img,
+    .portfolio_item .mobile .data .img,
+    .portfolio_item .ui_kit .data .img,
+    .portfolio_item .peculiarities .data .img
+    {
+        width: calc(100% + 24px);
+        margin-right: -12px;
+        margin-left: -12px;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio .filter
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .portfolio .item .thumb
+    {
+        height: 148px;
+    }
+
+    .portfolio .masonry .item.h2x,
+    .portfolio .masonry .item.h2x .thumb,
+    .portfolio .grid > *:first-child .thumb,
+    .portfolio .grid > *:last-child .thumb
+    {
+        height: 306px;
+    }
+
+    .portfolio .item .info
+    {
+        padding: 12px 16px;
+    }
+
+    .portfolio .item .name .icon
+    {
+        display: none;
+    }
+
+
+    .portfolio .all_link
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    .services .accordion
+    {
+        margin-top: 32px;
+    }
+
+
+    .services .accordion .active .col_name:before
+    {
+        width: 20px;
+        margin-right: 14px;
+    }
+
+
+    .services .totals
+    {
+        padding: 20px 64px 20px 28px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 40px 24px 0;
+    }
+
+
+    .about_info .data
+    {
+        width: 100%;
+    }
+
+    .about_info .data .title
+    {
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+    .about_info .data .author
+    {
+        margin-top: 24px;
+    }
+
+    .about_info .data .preset_btn
+    {
+        margin-top: 32px;
+    }
+
+
+    .about_info .image
+    {
+        position: relative;
+        left: 0;
+
+        width: 360px;
+        margin: 32px auto 0;
+        padding: 0 40px;
+    }
+
+
+    .about_info .image .square
+    {
+        top: 40px;
+        right: 0;
+        left: 0;
+
+        width: 320px;
+        height: 320px;
+        margin: auto;
+
+        border-width: 4px;
+    }
+
+    .about_info .image .square .icon
+    {
+        top: -12px;
+        right: -12px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+    .about_info .image .square .icon2
+    {
+        top: auto;
+        right: auto;
+        bottom: -12px;
+        left: -12px;
+    }
+
+    .about_info .image .square .icon:before
+    {
+        height: 4px;
+    }
+
+    .about_info .image .square .icon:after
+    {
+        width: 4px;
+    }
+
+
+
+    /*----------------------
+        Our competencies
+    ----------------------*/
+    .our_competencies
+    {
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 60px;
+    }
+
+
+    .our_competencies .block_head
+    {
+        width: 100%;
+    }
+
+
+    .our_competencies .data
+    {
+        width: 100%;
+        padding-top: 24px;
+        padding-left: 12px;
+    }
+
+    .our_competencies .data .title
+    {
+        margin-bottom: 12px;
+    }
+
+    .our_competencies .data .item + .item
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*--------------------
+        Our philosophy
+    --------------------*/
+    .our_philosophy
+    {
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 60px;
+    }
+
+
+    .our_philosophy .block_head
+    {
+        width: 100%;
+    }
+
+
+    .our_philosophy .data
+    {
+        width: 100%;
+        padding-top: 24px;
+        padding-left: 12px;
+    }
+
+    .our_philosophy .data .title
+    {
+        margin-bottom: 12px;
+    }
+
+    .our_philosophy .data .item + .item
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 100px;
+    }
+
+
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+
+    footer .order_btn
+    {
+        width: calc(100% - 48px);
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

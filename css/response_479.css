@@ -1,0 +1,623 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close
+    {
+        top: 8px;
+        right: 8px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item .head
+    {
+        font-size: 14px;
+        line-height: 19px;
+
+        padding: 16px 60px 16px 20px;
+    }
+
+
+    .accordion .accordion_item .data
+    {
+        padding: 0 20px 20px 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+    header
+    {
+        padding: 16px 0;
+    }
+
+
+    header .logo,
+    header .logo img
+    {
+        width: 70px;
+    }
+
+
+    header .slogan
+    {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .page_title
+    {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: calc(var(--font_size_title) + 4px);
+
+        padding-left: 16px;
+    }
+
+
+    .block_head .title:before
+    {
+        top: -8px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .block_head .desc
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------------
+        First section
+    -----------------*/
+    .first_section
+    {
+        height: 243px;
+    }
+
+
+    .first_section .info
+    {
+        width: 260px;
+        height: 193px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .first_section .info .title .span1
+    {
+        margin-left: 13px;
+    }
+
+    .first_section .info .title .span2
+    {
+        margin-left: 31px;
+    }
+
+
+    .first_section .info .square
+    {
+        right: 0;
+
+        width: 193px;
+        height: 193px;
+    }
+
+    .first_section .info .square .icon
+    {
+        top: -9px;
+        left: -6px;
+
+        width: 15px;
+        height: 15px;
+    }
+
+    .first_section .info .square .icon2
+    {
+        top: auto;
+        right: -9px;
+        bottom: -9px;
+        left: auto;
+    }
+
+    .first_section .info .square:before,
+    .first_section .info .square:after
+    {
+        height: calc(50% - 26px);
+    }
+
+
+    .first_section .ball1
+    {
+        top: 50px !important;
+        left: 10px !important;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .first_section .ball2
+    {
+        bottom: 63px !important;
+
+        width: 20px;
+        height: 20px;
+        margin-left: -32px;
+    }
+
+
+    .first_section .smoke1,
+    .first_section .smoke2
+    {
+        top: 30px !important;
+
+        height: 234px;
+        margin-right: -400px;
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about .data .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .info
+    {
+        height: 120px;
+    }
+
+
+    .error_info .info .square
+    {
+        width: 120px;
+        height: 120px;
+        margin-left: -145px;
+    }
+
+    .error_info .info .square .icon
+    {
+        top: -5px;
+        right: -5px;
+
+        width: 13px;
+        height: 13px;
+    }
+
+    .error_info .info .square .icon2
+    {
+        top: auto;
+        right: auto;
+        bottom: -5px;
+        left: -5px;
+    }
+
+    .error_info .info .square .icon:before
+    {
+        height: 3px;
+    }
+
+    .error_info .info .square .icon:after
+    {
+        width: 3px;
+    }
+
+
+    .error_info .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-left: -96px;
+    }
+
+
+    .error_info .code
+    {
+        font-size: 95px;
+        line-height: 100px;
+    }
+
+
+    .error_info .desc
+    {
+        line-height: 17px;
+
+        margin-top: 32px;
+    }
+
+
+    .error_info .links
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .location,
+    .contacts_info .phone,
+    .contacts_info .email
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .map_wrap
+    {
+        height: 300px;
+        margin-top: 35px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 100px 0 24px;
+    }
+
+
+
+    /*--------------------
+        Portfolio item
+    --------------------*/
+    .portfolio_item .head .title
+    {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+
+    .portfolio_item .head .site
+    {
+        margin-top: 24px;
+    }
+
+
+
+    .portfolio_item .preview .items
+    {
+        padding: 0 2px;
+    }
+
+    .portfolio_item .preview .item .title
+    {
+        line-height: 17px;
+
+        margin-bottom: 12px;
+    }
+
+
+
+    .portfolio_item .prototype,
+    .portfolio_item .concept,
+    .portfolio_item .mobile,
+    .portfolio_item .ui_kit,
+    .portfolio_item .peculiarities
+    {
+        margin-top: 60px;
+    }
+
+
+    .portfolio_item .prototype .block_head .title span
+    {
+        margin-left: 73px;
+    }
+
+
+    .portfolio_item .prototype .data,
+    .portfolio_item .concept .data,
+    .portfolio_item .mobile .data,
+    .portfolio_item .ui_kit .data,
+    .portfolio_item .peculiarities .data
+    {
+        margin-top: 32px;
+        padding-top: 24px;
+        padding-bottom: 16px;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio .filter
+    {
+        margin-left: -10px;
+    }
+
+    .portfolio .filter .btn
+    {
+        font-size: 13px;
+        line-height: 16px;
+
+        margin-left: 10px;
+        padding: 5px 10px;
+    }
+
+    .portfolio .filter .btn br
+    {
+        display: block;
+    }
+
+
+    .portfolio .item .thumb
+    {
+        height: 120px;
+    }
+
+    .portfolio .masonry .item.h2x,
+    .portfolio .masonry .item.h2x .thumb,
+    .portfolio .grid > *:first-child .thumb,
+    .portfolio .grid > *:last-child .thumb
+    {
+        height: 250px;
+    }
+
+
+    .portfolio .item .type
+    {
+        font-size: 11px;
+        line-height: 13px;
+
+        margin-bottom: 2px;
+    }
+
+    .portfolio .item .name
+    {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+
+    .portfolio .all_link
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .services .service .desc
+    {
+        line-height: 17px;
+
+        margin-top: 12px;
+    }
+
+
+    .services .accordion
+    {
+        margin-top: 24px;
+    }
+
+
+    .services .accordion .text
+    {
+        line-height: 17px;
+    }
+
+
+    .services .accordion .active .col_name:before
+    {
+        width: 16px;
+    }
+
+
+    .services .totals
+    {
+        padding: 16px 60px 16px 20px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 24px 0 0;
+    }
+
+
+    .about_info .data .title
+    {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .about_info .data .desc
+    {
+        line-height: 17px;
+    }
+
+
+    .about_info .data .preset_btn
+    {
+        width: 100%;
+        margin-top: 28px;
+        padding: 12px 20px;
+
+        text-align: center;
+    }
+
+
+
+    .about_info .image
+    {
+        width: 292px;
+        margin-right: -16px;
+        margin-left: -16px;
+    }
+
+    .about_info .image .square
+    {
+        top: 24px;
+        right: 0;
+        left: 0;
+
+        width: 220px;
+        height: 220px;
+
+        border-width: 3px;
+    }
+
+    .about_info .image .square .icon
+    {
+        top: -8px;
+        right: -8px;
+
+        width: 13px;
+        height: 13px;
+    }
+
+    .about_info .image .square .icon2
+    {
+        top: auto;
+        right: auto;
+        bottom: -8px;
+        left: -8px;
+    }
+
+    .about_info .image .square .icon:before
+    {
+        height: 3px;
+    }
+
+    .about_info .image .square .icon:after
+    {
+        width: 3px;
+    }
+
+
+
+    /*--------------------
+        Our philosophy
+    --------------------*/
+    .our_philosophy
+    {
+        padding-bottom: 40px;
+    }
+
+
+
+    /*----------------------
+        Our competencies
+    ----------------------*/
+    .our_competencies
+    {
+        padding-bottom: 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .location,
+    footer .phone,
+    footer .email
+    {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+
+    footer .callback
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 32px;
+    }
+}
