@@ -609,19 +609,19 @@
         margin-bottom: 4px;
     }
 
+    .services .accordion .col_duration
+    {
+        width: 72px;
+    }
+
     .services .accordion .active .col_name:before
     {
         margin-right: 10px;
     }
 
-    .services .accordion .col_duration,
     .services .accordion .col_price
     {
         width: auto;
-    }
-
-    .services .accordion .col_price
-    {
         margin-left: 20px;
     }
 
