@@ -2512,10 +2512,10 @@ header .menu .item > a.active:after
     margin-left: 50px;
     padding: 46px 0 46px;
 
-    background: #0a0503;
+    background: url(../images/bg_about_info.png) 50%/cover #0a0503;
 }
 
-.about_info:before
+/* .about_info:before
 {
     position: absolute;
     z-index: -3;
@@ -2549,7 +2549,7 @@ header .menu .item > a.active:after
     pointer-events: none;
 
     background: linear-gradient(270deg, #1a1a1a 67.19%, rgba(35, 35, 35, 0) 100%);
-}
+} */
 
 
 .about_info .breadcrumbs
